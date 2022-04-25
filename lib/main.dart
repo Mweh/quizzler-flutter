@@ -78,6 +78,7 @@ class _QuizPageState extends State<QuizPage> {
                       color: Colors.green,
                     ),
                   );
+                  questionNumber++;
                 });
               },
             ),
@@ -104,7 +105,7 @@ class _QuizPageState extends State<QuizPage> {
                       color: Colors.red,
                     ),
                   );
-                  questions[questionNumber + 1];
+                  questionNumber++;
                 });
               },
             ),
